@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: "Merienda", cursive;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:rgb(255,127,80)
+}
+.quote--container{
+  background-color:white;
+  width:500px;
+  padding:50px;
+  border-radius:5px;
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  
+}
+
+.quote--text{
+  text-align:center;
+  font-size:30px;
+}
+
+.quote--author{
+  text-align:right;
+}
+
+.quote--button{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.quote-change-button{
+  height:40px;
+  border-radius:5px;
+  padding:10px;
+  cursor:pointer;
+  color:white;
+  border:none;
+}
+
+.twitter--button, .tumblr--button{
+  cursor:pointer;
+}
